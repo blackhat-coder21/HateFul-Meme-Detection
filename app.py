@@ -27,7 +27,7 @@ from streamlit_lottie import st_lottie
 import json
 import pickle
 
-# Function to load Lottie animation from a file
+# Function to load Lottie animation from a fil
 def load_lottie_animation(animation_path):
     with open(animation_path, "r") as f:
         return json.load(f)
